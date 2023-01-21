@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="16dp"
+        android:text="Hello i am vijitha"
+        android:textColor="@color/material_on_background_emphasis_high_type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="16dp"
+        android:text="hii kalyani"
+        android:textColor="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="16dp"
+        android:text="my age is 21"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="16dp"
+        android:text="my name is kalyani"
+        android:textColor="@color/material_on_background_emphasis_high_type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <Button
+        android:id="@+id/BOTTOM_END"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VISHNU VARDHAN REDDY"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
